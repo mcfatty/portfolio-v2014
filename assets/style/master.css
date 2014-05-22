@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a,
+.l-socialelement ul li a.b-google,
+.l-socialelement ul li a.b-linkedin, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img, .l-socialelement ul li a.b-google img, .l-socialelement ul li a.b-linkedin img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/**********************
+** Body related style
+**********************/
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #f0c5c3;
+  color: #745857;
+}
+
+body {
+  font-family: "Titillium Web Light", sans-serif;
+  font-size: 1.875em;
+  color: #745857;
+  background: #29272e;
+}
+
+/**********************
+** Page related style
+**********************/
+.l-loadelement header.l-headerelement {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.l-loadelement header.l-headerelement .l-logoelement {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  text-indent: -9999px;
+  width: 96px;
+  height: 106px;
+  background: url(../graphics/page/logo.svg);
+  background-size: 96px 106px;
+}
+.l-loadelement header.l-headerelement .l-textelement {
+  width: 7.5em;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 0.44em;
+  font-family: "Titillium Web Bold", sans-serif;
+  text-align: center;
+}
+.l-loadelement header.l-headerelement h1.l-helement {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.l-page .l-leftelement {
+  background: #201f22;
+  border-right: 1px solid #34323b;
+  float: left;
+  width: 4.485em;
+  height: 100vh;
+}
+.l-page .l-leftelement .l-logoelement {
+  margin: 20px auto;
+  margin-bottom: 20px;
+  display: block;
+  text-indent: -9999px;
+  width: 96px;
+  height: 106px;
+  background: url(../graphics/page/logo.svg);
+  background-size: 96px 106px;
+}
+.l-page .l-leftelement .l-textelement {
+  width: 7.5em;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 0.44em;
+  font-family: "Titillium Web Bold", sans-serif;
+  text-align: center;
+}
+
+/**********************
+** Social related style
+**********************/
+.l-socialelement ul {
+  width: 98px;
+  margin: 0 auto;
+}
+.l-socialelement ul li {
+  width: 26px;
+  height: 26px;
+  margin: 0 10px 0 0;
+  float: left;
+}
+.l-socialelement ul li a, .l-socialelement ul li a.b-google, .l-socialelement ul li a.b-linkedin {
+  background: url(../graphics/page/social/facebook.svg) no-repeat;
+  background-size: 26px 26px;
+  display: block;
+  text-indent: -9999px;
+}
+.l-socialelement ul li a:hover {
+  fill: none;
+  pointer-events: all;
+}
+.l-socialelement ul li a.b-google {
+  background-image: url(../graphics/page/social/googleplus.svg);
+}
+.l-socialelement ul li a.b-linkedin {
+  background-image: url(../graphics/page/social/linkedin.svg);
+}
+.l-socialelement ul li:last-child {
+  margin-right: 0;
+}
+
+/**********************
+** Portfolio related style
+**********************/
+.l-portfoliobox {
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.l-portfoliobox .l-portfolioboxinfo {
+  width: 100%;
+  height: 99%;
+  background: rgba(116, 88, 87, 0.6);
+  color: white;
+  position: absolute;
+  text-align: center;
+  display: none;
+}
+.l-portfoliobox .l-portfolioboxinfo .l-portfoliocontainer {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+.l-portfoliobox .l-portfolioboxinfo .l-portfoliocontainer h1.l-portfolioheader {
+  font-family: "Titillium Web Light", sans-serif;
+  font-size: 33px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.l-portfoliobox .l-portfolioboxinfo .l-portfoliocontainer .l-portfoliologoheader {
+  width: 36px;
+  height: 40px;
+  background: url(../graphics/page/portfolio-icon.svg) no-repeat;
+  background-size: 36px 40px;
+  display: block;
+  text-indent: -9999px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.l-portfoliobox .l-portfolioboxinfo .l-portfoliocontainer h3.l-portfoliotype {
+  font-size: 23px;
+  color: #f0c5c3;
+  font-family: "Titillium Web Bold", sans-serif;
+  text-transform: uppercase;
+}
+
+/**********************
+** Load style
+**********************/
